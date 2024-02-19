@@ -1,0 +1,212 @@
+body {
+	background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+
+.sidebarC{
+	
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	max-width: 170px;
+	align-items: baseline;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 100px;
+	background-color: #363434;
+	z-index: 1;
+	
+}
+
+
+.itemI{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	color: transparent;
+	z-index: 1;
+	text-decoration: underline transparent;
+    font-size: 18px;
+}
+
+.itemI:visited{
+	text-decoration: underline transparent;
+}
+
+.titleC{
+	
+	display: flex;
+	flex-direction: row ;
+	background-color: #363434;
+	justify-content: center;
+	z-index: 1;
+}
+
+.title-nameI{
+	width: 35%;
+	margin-top: 5px;
+	margin-bottom: 14px;
+	margin-top: 14px;
+	z-index: 1;
+}
+
+.sidebarbutton{
+	
+	color: aliceblue;
+	margin-top: 50px;
+	margin-left: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	padding-bottom: 1fr;
+	z-index: 1;
+    
+	
+}
+
+.sidebarbutton:hover {
+	cursor: pointer;
+	transition: 0.2s;
+	text-shadow: rgba(252,252,252,1) 0px 0px 42px;
+
+}
+
+.itemI:hover{
+	cursor: pointer;
+	transition: 0.2s;
+	text-shadow: rgba(252,252,252,1) 0px 0px 42px;
+
+}
+
+.sidebarC:hover .itemI{
+	color: aliceblue;
+	cursor: pointer;
+	transition: 0.7s;
+	margin-right: 100px
+
+}
+
+.fusszeile{
+	
+	background-color: #111;
+	padding-bottom: 25vw;
+	z-index: 0;
+}
+
+.tabelle-Credits{
+	margin-left: 35vw;
+	margin-right: 35vw;
+	color: white;
+	padding-top: 50px;
+	display:flex;
+    flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+
+.blabla{
+	color: white;
+}
+
+.blablabla{
+	padding-right:45px;
+	padding-left:45px;
+	border-right: 3px solid;
+	border-collapse: collapse;
+	border-color: white;
+	border-left: 3px solid
+
+}
+
+.babibobu{
+	padding-right:45px;
+}
+
+.baboo{
+	padding-left:45px;
+}
+
+.fusszeileC{
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    justify-content: end;
+    height: auto;
+}
+
+.Namenskarte{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 430px;
+    justify-content: space-evenly;
+    margin-bottom: 50vh;
+    margin-top: 50px;
+}
+
+.Namenskarte-Profil{
+    background-color: #5c5757 ;
+    width: 250px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 6px solid #efecec;
+}
+
+.images{
+    height: 200px;
+    margin-left:53px;
+    margin-top:30px;
+    border-radius: 30px;
+    border: 5px solid #efecec;
+    width: 140px;
+    
+}
+
+.imagesC{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.Text{
+    margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    border-color: #62929a;
+    background-color: #62929a;
+    color: #efecec;
+}
+
+h2{
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+@media only screen and (max-width: 600px){
+    .Namenskarte{
+        flex-direction: column;
+        margin-left: 25%;
+        padding-top: 300px
+    }
+
+    .Namenskarte-Profil{
+        margin-bottom: 100px;
+        
+    }
+    
+}

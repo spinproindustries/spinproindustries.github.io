@@ -1,0 +1,262 @@
+body {
+	background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+
+.sidebarC{
+	
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	max-width: 170px;
+	align-items: baseline;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 100px;
+	background-color: #363434;
+	z-index: 1;
+	
+}
+
+
+.itemI{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	color: transparent;
+	z-index: 1;
+	text-decoration: underline transparent;
+	
+}
+
+.titleC{
+	
+	display: flex;
+	flex-direction: row ;
+	background-color: #363434;
+	justify-content: center;
+	z-index: 1;
+}
+
+.title-nameI{
+	width: 35%;
+	margin-top: 5px;
+	background-color: #363434;
+	margin-bottom: 14px;
+	margin-top: 14px;
+	z-index: 1;
+}
+
+.sidebarbutton{
+	
+	color: aliceblue;
+	margin-top: 50px;
+	margin-left: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	padding-bottom: 1fr;
+	z-index: 1;
+	
+}
+
+.sidebarbutton:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	text-shadow: rgba(252,252,252,1) 0px 0px 42px;
+
+}
+
+.itemI:hover{
+	cursor: pointer;
+	transition: 0.5s;
+	text-shadow: rgba(252,252,252,1) 0px 0px 42px;
+
+}
+
+.sidebarC:hover .itemI{
+	color: aliceblue;
+	cursor: pointer;
+	transition: 0.7s;
+	margin-right: 100px
+
+}
+
+.platzhalter{
+	color: transparent;
+	
+	
+}
+
+.fusszeile{
+	
+	background-color: #111;
+	padding-bottom: 25vw;
+	z-index: 1;
+}
+
+.tabelle-Credits{
+	margin-left: 35vw;
+	margin-right: 35vw;
+	color: white;
+	padding-top: 50px;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.blabla{
+	color: white;
+}
+
+.blablabla{
+	padding-right:45px;
+	padding-left:45px;
+	border-right: 3px solid;
+	border-collapse: collapse;
+	border-color: white;
+	border-left: 3px solid
+
+}
+
+.babibobu{
+	padding-right:45px;
+}
+
+.baboo{
+	padding-left:45px;
+}
+
+.background-image1C{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    background-color: #62929a;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+	margin-bottom: px;
+}
+
+.background-image5C{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    background-color: #62929a;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.background-image2C{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    background-color: #8a8583;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+
+.background-image3C{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    background-color: #8a8583;
+	background-image: url(../images/SkifahrerBausatz.jpg);
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+	
+}
+
+.background-image4C{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    background-color: #62929a;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+	margin-top: 40px;
+}
+
+.background-image6C{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: #8a8583;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+	margin-top: 40px;
+}
+
+.background-image6C:hover{
+	cursor: pointer;
+}
+
+.Text{
+    color: #efecec;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.Text2{
+    color: #efecec;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.Text3{
+    color: #efecec;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: #3744a0;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+	text-decoration: underline transparent;
+}
+
+.Text3:hover{
+	cursor: pointer;
+}
+
+.Text4{
+    color: #efecec;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+	text-decoration: transparent;
+}
+
+.Bild{
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+}
+
+.Bild1{
+	width: 100%;
+	height: 400px;
+}
