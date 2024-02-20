@@ -250,3 +250,9 @@ body {
     margin-top: 14px;
     z-index: 1;
 }
+
+.Building{
+    z-index: 0.5;
+} .Firmain .Drehteil1{
+    z-index: 0;
+}

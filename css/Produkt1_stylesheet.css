@@ -366,3 +366,103 @@ body {
   border-radius: 15px;
   
 }
+
+.anzeigeC{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  justify-content: center;
+}
+
+.anzeige{
+  background-color:#363434;
+  
+  width: 70vw;
+  border-radius: 15px;
+}
+
+.anzeigeT{
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.anzeige-productsC{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.anzeige-productsbg1{
+  border: 1px solid aliceblue;
+  width: 30vw;
+  height: 37vh;
+  border-radius: 15px;
+
+}
+
+.anzeige-productsbg1:hover{
+  cursor:pointer;
+  transition: 0.7s;
+  -webkit-box-shadow:0px 0px 20px 3px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+  box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+}
+
+.anzeige-productsbg2:hover{
+  cursor:pointer;
+  transition: 0.7s;
+  -webkit-box-shadow:0px 0px 20px 3px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+  box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+}
+
+.anzeige-productsbg2{
+  border: 1px solid aliceblue;
+  width: 30vw;
+  height: 37vh;
+  border-radius: 15px;
+}
+
+.anzeige-productsT{
+  color:aliceblue;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 2vw;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.uiC{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ui{
+  width: 85vw;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  backdrop-filter: blur(34px);
+}
+
+.anzeige-bild{
+  height: 110px;
+  width: 25vw;
+  margin-left: 2vw;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.anzeige-bewertung{
+  margin-left: 10px;
+}
+
+.anzeige-link{
+  text-decoration: underline transparent;
+}
+

@@ -150,7 +150,6 @@ body {
     background-color: #363434;
     color: aliceblue;
     padding-top: 14px;
-    margin-top: 100px;
     border-radius: 15px;
   }
   
@@ -206,8 +205,7 @@ body {
   .carousel__slide {
     position: relative;
     flex: 0 0 100%;
-    
-    background-color: #f99;
+    background-color: #99f;
     counter-increment: item;
   }
   
@@ -331,36 +329,139 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
   }
 
- 
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
 
-  .Bild1{
-    width: 100%;
-    height: auto;
-  }
-  
-  .Bild2{
-    width:100%;
-    height: inherit;
-  }
+.Bild1{
+  width: 100%;
+  height: auto;
+}
 
-  .paypal-button{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-  }
+.Bild2{
+  width:100%;
+  height: inherit;
+}
+
+.paypal-button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
   
-  .all{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    
-  }
+}
+
+.all{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
   
-  .allI{
-    background-color:#363434;
-    border-radius: 15px;
-    
-  }
+}
+
+.allI{
+  background-color:#363434;
+  border-radius: 15px;
+  
+}
+
+.anzeigeC{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  justify-content: center;
+}
+
+.anzeige{
+  background-color:#363434;
+  
+  width: 70vw;
+  border-radius: 15px;
+}
+
+.anzeigeT{
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.anzeige-productsC{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.anzeige-productsbg1{
+  border: 1px solid aliceblue;
+  width: 30vw;
+  height: 37vh;
+  border-radius: 15px;
+
+}
+
+.anzeige-productsbg1:hover{
+  cursor:pointer;
+  transition: 0.7s;
+  -webkit-box-shadow:0px 0px 20px 3px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+  box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+}
+
+.anzeige-productsbg2:hover{
+  cursor:pointer;
+  transition: 0.7s;
+  -webkit-box-shadow:0px 0px 20px 3px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+  box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+}
+
+.anzeige-productsbg2{
+  border: 1px solid aliceblue;
+  width: 30vw;
+  height: 37vh;
+  border-radius: 15px;
+}
+
+.anzeige-productsT{
+  color:aliceblue;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 2vw;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.uiC{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ui{
+  width: 85vw;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  backdrop-filter: blur(34px);
+}
+
+.anzeige-bild{
+  height: 110px;
+  width: 25vw;
+  margin-left: 2vw;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.anzeige-bewertung{
+  margin-left: 10px;
+}
+
+.anzeige-link{
+  text-decoration: underline transparent;
+}
