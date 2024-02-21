@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
+.bodi{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,3 +103,20 @@ body{
   text-decoration: underline;
 }
 
+.titleC{
+	
+	display: flex;
+	flex-direction: row ;
+	background-color: #363434;
+	justify-content: center;
+	z-index: 1;
+}
+
+.title-nameI{
+	width: 35%;
+	margin-top: 5px;
+	background-color: #363434;
+	margin-bottom: 14px;
+	margin-top: 14px;
+	z-index: 1;
+}
